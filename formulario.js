@@ -15,6 +15,7 @@ const listar = () => {
     }
 
     t_body.innerHTML = tabla_llena;
+    alert("Listado de usuarios cargado Exitosamente");
 }
 
 //validar si el id esta en la tabla.
@@ -81,6 +82,7 @@ const registrar = () => {
 
         //usuarios al final
         tabla.push(nuevo)
+        alert("Registro Exitoso");
 
     } else {
 
